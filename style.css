@@ -4,10 +4,8 @@ html {
 
 body {
   background-image: linear-gradient(to top, #000e, #0005), url('images/fondoNegro.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-
+  background-size: contain;
+  background-position: top;
 
   
   padding: 30px 15px;
@@ -213,4 +211,5 @@ p {
   color: #ddd9;
   font-weight: 100;
   letter-spacing: 1px;
+
 }
